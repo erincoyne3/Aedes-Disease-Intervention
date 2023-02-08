@@ -1,1 +1,10 @@
+Wolbachia Replacement:
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6962337/pdf/main.pdf
 
+Bhv = probability of infection from infected human to susceptible mosquito 
+
+B2 = Bhv * k -> Bhv = B2/k
+k = 0.70788728
+B2 = 0.08016039
+
+Bhv = 0.11323
