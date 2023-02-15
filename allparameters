@@ -1,0 +1,36 @@
+#All parameters
+
+#Fogging - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7829155/
+#Fitted natural death rate
+
+g <- 0.0244
+
+
+#Larviciding – https://www.jstage.jst.go.jp/article/yoken/66/4/66_341/_pdf/-char/en
+#Mean emergence rate * baseline
+
+epsilon <- 0.04 * 0.077
+
+#Wolbachia Replacement – https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6962337/pdf/main.pdf
+#Bhv = prob infection from human to mosquito 
+#B2 = Bhv * k -> Bhv = B2/k
+
+g <- 0.08016039/0.70788728
+
+#Wolbachia Supression  
+#https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5902584/ 
+#https://link.springer.com/article/10.1007/s00285-018-1213-2#Sec8
+
+epsilon <- 0.04 * 0.5
+
+#Targeted IRS
+#percent mortality one day post spraying
+https://github.com/erincoyne3/Aedes-Disease-Intervention
+g <- 0.93
+
+#Oxitec 2nd Gen
+
+epsilon <- 0.04 * 0.145
+
+#Spatial Repellent
+
